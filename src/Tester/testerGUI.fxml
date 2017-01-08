@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.*?>
+<?import java.util.ArrayList?>
+
+
+<Pane fx:controller="Tester.TesterController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.76-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="buttonToPress" layoutX="195.0" layoutY="141.0" mnemonicParsing="false" onAction="#buttonToPressPressed" prefHeight="118.0" prefWidth="210.0" text="Button" />
+   </children>
+</Pane>
